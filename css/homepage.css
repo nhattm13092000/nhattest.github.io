@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+.homepage{
+    display: flex;
+}
+
+.sidebar{
+    width: 12%;
+}
+
+.welcome{
+    width: 88%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 12%;
+}
+
+.welcome p:first-child{
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 35px;
+}
+
+.welcome p:nth-child(2){
+    font-weight: 400;
+    font-size: 14px;
+    margin-bottom: 35px;
+}
+
+.search{
+    width: 484px;
+    height: 56px;
+    border: 1px solid #1C1F27;
+    border-radius: 12px;
+    margin-bottom: 80px;
+    display: flex;
+    align-items: center;
+    padding-left: 28px;
+}
+
+#search{
+    margin-right: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.search input{
+    border: none;
+    height: 32px;
+    width: 408px;
+    font-size: 14px;
+    color: #1C1F27;
+    font-weight: 600;
+    padding-left: 12px;
+}
+
+.search input:focus{
+    outline: none;
+}
+
+#explore{
+    width: 130px;
+    height: 48px;
+    border: none;
+    border-radius: 8px;
+    padding: 0 24px 0 24px;
+    background-color: #7470E9;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+}

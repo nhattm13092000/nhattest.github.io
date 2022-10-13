@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+}
+
+
+.imagelogin{
+    width: 50%;
+    text-align: center;
+    padding-top: 32px;
+    background-image: url("../img/avatar-cute-meo-con-than-chet-700x695.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.imagelogin > img{
+    height: 36px;
+    width: 58px;
+}
+
+.loginAccount{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.formLogin {
+    position: relative;
+    background-color: #FFFFFF;
+    padding-top: 32px;
+    height: 480px;
+    width: 546px;
+    text-align: center;
+    border-style: outset;
+}
+
+.intro>h1 {
+    font-size: 24px;
+    padding-bottom: 8px;
+    color: #1C1F27;
+}
+
+.intro>p {
+    font-size: 16px;
+    color: #1C1F27;
+    padding-bottom: 32px;
+}
+
+.selectCampus {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 0 60px 40px;
+}
+
+label {
+    font-weight: 700;
+    padding-bottom: 16px;
+    font-size: 14px;
+}
+
+#campus {
+    width: 480px;
+    height: 40px;
+    border: 1px solid #1C1F27;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 0 40px 16px 0;   
+}
+
+#campus > option{
+    height: 53px;
+    width: 365px;
+}
+
+.signInGG {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.signInGG>p {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    padding-bottom: 16px;
+    width: 600px;
+    text-align: center;
+}
+
+
+.signGG {
+    display: flex;
+    align-items: center;
+    width: 251px;
+    height: 48px;
+    padding: 0 2px 0 2px;
+    cursor: pointer;
+    background-color: #4585F4;;
+    color: white;
+    margin: 8px 0 32px 0;
+    border: 0;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.signGG>img {
+    background-color: whitesmoke;
+    color: cornflowerblue;
+    padding: 10px;
+    border-radius: 2px;
+    width: 44px;
+    height: 44px;
+    font-size: 24px;
+}
+
+#signGG{
+    padding-left: 16px;
+}
